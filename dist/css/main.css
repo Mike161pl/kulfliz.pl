@@ -68,14 +68,13 @@ nav .navbar-nav .nav-link.active,
 nav .navbar-nav .show > .nav-link {
 	color: #a2d2ff;
 }
-
 header.hero-img {
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url('../img/screencapture-designer-antigro-pl-2024-02-23-18_58_54.png');
+	background-image: url('../img//podkładmały.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: 30% 70%;
 	background-attachment: fixed;
 	color: #fff;
 	z-index: 0;
@@ -339,13 +338,12 @@ header.hero-img .fa-chevron-down {
 }
 .extras__card {
 	position: relative;
-	margin: 10px ;
+	margin: 10px;
 	height: 450px;
 	width: 95%;
-	color: #fff;
+	color: #ffffff;
 	text-align: center;
 	perspective: 1000px;
-	
 }
 .extras__card:hover .extras__card-img {
 	transform: rotateY(-180deg);
@@ -360,16 +358,26 @@ header.hero-img .fa-chevron-down {
 	height: 100%;
 	border-radius: 8px;
 	background-size: cover;
+	
 	transition: transform 1s, opacity 1s;
 }
 .extras__card-img--first {
-	background-image: url('../img/fasada.jpg');
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/elewacja.jpg");
 }
 .extras__card-img--second {
-	background-image: url('../img/budowa-domu-scaled.jpeg');
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/zabudowygk.jpg');
 }
 .extras__card-img--third {
-	background-image: url('../img/IMG-20240224-WA0012.jpg');
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/scianazkamienia.jpg');
+}
+.extras__card-img--fourth {
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/malowanie.jpg');
+}
+.extras__card-img--five {
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/gotowe\ skosy\ z\ drewnem.jpg');
+}
+.extras__card-img--six {
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/łaźienka.jpg');
 }
 .extras__card-img-title {
 	font-size: 28px;
@@ -408,12 +416,12 @@ header.hero-img .fa-chevron-down {
 }
 .extras__card-info-list {
 	margin: 0 auto;
-	width: 70%;
+	width: 100%;
 	list-style: none;
 }
 .extras__card-info-list-item {
 	padding: 10px;
-	font-size: 14px;
+	font-size: 13px;
 	border-bottom: 1px solid #77a3c7;
 }
 .extras__card-info-list-item:last-child {
@@ -639,16 +647,19 @@ header.hero-img .fa-chevron-down {
 	.aboutus-hero {
 		background-image: url('../img/cleanerstuff-big.jpg');
 	}
-	.extras__cards{
+	.extras__cards {
 		flex-direction: row;
 		padding: 50px;
 	}
-	.extras__card{
+	.extras__card {
 		width: 30%;
+	}
+	.extras__card-info-list-item{
+		font-size: 16px;
 	}
 }
 @media (min-width: 1200px) {
 	header.hero-img {
-		background-image: url('../img/screencapture-designer-antigro-pl-2024-02-23-18_58_54.png');
+		background-image: url('../img//podkład.png');
 	}
 } /*# sourceMappingURL=main.css.map */
