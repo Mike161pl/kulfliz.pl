@@ -133,8 +133,7 @@ header.hero-img .fa-chevron-down {
 
 .aboutus-hero {
 	position: relative;
-
-	background-image: url('../img/cleanerstuff-small.jpg');
+	background-image: url('../img/contact.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top;
@@ -371,7 +370,7 @@ header.hero-img .fa-chevron-down {
 	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/scianazkamienia.jpg');
 }
 .extras__card-img--fourth {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/malowanie.jpg');
+	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/stansurowy.jpeg');
 }
 .extras__card-img--five {
 	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/gotowe\ skosy\ z\ drewnem.jpg');
@@ -443,7 +442,7 @@ header.hero-img .fa-chevron-down {
 }
 .opinion {
 	position: relative;
-	background-image: url('../img/background.jpeg');
+	background-image: url('../img/opinia.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 0;
@@ -502,7 +501,7 @@ header.hero-img .fa-chevron-down {
 
 .contact {
 	position: relative;
-	background-image: url('../img/cleanerstuff-big.jpg');
+	background-image: url('../img/podkładkontakt.jpg');
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -644,9 +643,7 @@ header.hero-img .fa-chevron-down {
 	html {
 		scroll-padding-top: 72px;
 	}
-	.aboutus-hero {
-		background-image: url('../img/cleanerstuff-big.jpg');
-	}
+
 	.extras__cards {
 		flex-direction: row;
 		padding: 50px;
