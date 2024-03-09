@@ -19,7 +19,7 @@ body {
 	font-weight: bold;
 }
 .grey-text {
-	color: #6d6c6d;
+	color: #494949;
 	font-weight: bold;
 }
 
@@ -357,26 +357,27 @@ header.hero-img .fa-chevron-down {
 	height: 100%;
 	border-radius: 8px;
 	background-size: cover;
-	
+
 	transition: transform 1s, opacity 1s;
 }
 .extras__card-img--first {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/elewacja.jpg");
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/elewacja.jpg');
 }
 .extras__card-img--second {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/zabudowygk.jpg');
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/zabudowygk.jpg');
 }
 .extras__card-img--third {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/scianazkamienia.jpg');
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/scianazkamienia.jpg');
 }
 .extras__card-img--fourth {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/stansurowy.jpeg');
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/stansurowy.jpeg');
 }
 .extras__card-img--five {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/gotowe\ skosy\ z\ drewnem.jpg');
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+		url('../img/wykończeniazdrewna.jpg');
 }
 .extras__card-img--six {
-	background-image:linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/łaźienka.jpg');
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../img/łaźienka.jpg');
 }
 .extras__card-img-title {
 	font-size: 28px;
@@ -651,7 +652,7 @@ header.hero-img .fa-chevron-down {
 	.extras__card {
 		width: 30%;
 	}
-	.extras__card-info-list-item{
+	.extras__card-info-list-item {
 		font-size: 16px;
 	}
 }

@@ -40,10 +40,8 @@ header.hero-img .hero-shadow {
 header.hero-img .hero-text {
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 	flex-direction: column;
-	text-align: right;
-	margin-right: 15%;
 	height: 100%;
 }
 header.hero-img .fa-chevron-down {
@@ -59,20 +57,17 @@ header.hero-img .fa-chevron-down {
 	font-weight: bold;
 }
 .grey-text {
-	color: #6d6c6d;
+	color: #424242;
 	font-weight: bold;
 }
 .logo {
 	display: flex;
-  margin: 0 auto;
-  margin-top: 100px;
-	width:35%;
+	margin: 50px auto;
+	margin-top: 100px;
+	width: 35%;
 	opacity: 0.65;
 }
-.gallery__heading {
-	text-align: center;
-	font-size: 3rem;
-}
+
 .gallery {
 	padding: 5rem 2rem;
 	margin: 0 auto;
